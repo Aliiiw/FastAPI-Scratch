@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000336d2-028e-4bf6-b9ba-6e4406bf0bf6" name="Changes" comment="put added">
+    <list default="true" id="000336d2-028e-4bf6-b9ba-6e4406bf0bf6" name="Changes" comment="delete added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/books.py" afterDir="false" />
     </list>
@@ -71,7 +71,10 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.test_main | #2">
+  <component name="RunManager" selected="HTTP Request.All in test_main">
+    <configuration name="All in test_main" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test_main.http">
+      <method v="2" />
+    </configuration>
     <configuration name="test_main | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -123,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.All in test_main" />
         <item itemvalue="HTTP Request.test_main | #2" />
         <item itemvalue="HTTP Request.test_main | #1" />
         <item itemvalue="Python.main" />
@@ -146,7 +150,7 @@
       <updated>1781023114394</updated>
       <workItem from="1781023115396" duration="4140000" />
       <workItem from="1781077752571" duration="2980000" />
-      <workItem from="1781080747327" duration="3302000" />
+      <workItem from="1781080747327" duration="3648000" />
     </task>
     <task id="LOCAL-00001" summary="post request">
       <option name="closed" value="true" />
@@ -228,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781085101918</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete added">
+      <option name="closed" value="true" />
+      <created>1781085207842</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781085207842</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +268,8 @@
     <MESSAGE value="description config" />
     <MESSAGE value="get request for books" />
     <MESSAGE value="put added" />
-    <option name="LAST_COMMIT_MESSAGE" value="put added" />
+    <MESSAGE value="delete added" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPI_Scratch$FastAPI_Scratch.coverage" NAME="FastAPI-Scratch Coverage Results" MODIFIED="1781025741632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
