@@ -86,3 +86,10 @@ def find_book_id(book: Book):
     else:
         book_id = 1
     return book
+
+
+@app.put("/books/update_book")
+async def update_book(book_request: BookRequest):
+    for i in range(len(BOOKS)):
+        if BOOKS[i].id == book_request.id:
+            BOOKS[i] = book_request
